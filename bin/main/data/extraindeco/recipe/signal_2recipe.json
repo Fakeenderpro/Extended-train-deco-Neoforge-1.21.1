@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cb",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "create:placard"
+    },
+    "b": {
+      "item": "minecraft:light_gray_concrete_powder"
+    },
+    "c": {
+      "item": "create:metal_bracket"
+    }
+  },
+  "result": {
+    "id": "extraindeco:signal_2",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "create:andesite_alloy"
+    },
+    "b": {
+      "item": "create:shaft"
+    },
+    "c": {
+      "item": "create:industrial_iron_block"
+    }
+  },
+  "result": {
+    "id": "extraindeco:scharfenbergcoupler",
+    "count": 1
+  }
+}

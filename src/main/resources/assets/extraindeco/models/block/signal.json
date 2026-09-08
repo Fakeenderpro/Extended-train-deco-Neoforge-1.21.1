@@ -1,0 +1,13 @@
+{
+  "parent": "extraindeco:custom/signal_2",
+  "textures": {
+    "all": "extraindeco:block/signal_pole",
+    "particle": "extraindeco:block/signal_pole",
+    "0": "extraindeco:block/signal_base",
+    "1": "extraindeco:block/signal_pole",
+    "2": "extraindeco:block/signal_pole_2",
+    "3": "extraindeco:block/signal_pole_3",
+    "4": "extraindeco:block/signal_pole_4"
+  },
+  "render_type": "solid"
+}

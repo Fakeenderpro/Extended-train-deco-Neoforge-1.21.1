@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "extraindeco:platformsignbase"
+  },
+  "result": {
+    "id": "extraindeco:platformsign_3",
+    "count": 1
+  }
+}

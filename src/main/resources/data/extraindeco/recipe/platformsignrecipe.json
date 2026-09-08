@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "aab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blue_concrete"
+    },
+    "b": {
+      "item": "extraindeco:ironpole"
+    }
+  },
+  "result": {
+    "id": "extraindeco:platformsignbase",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "top",
+        "1": "base"
+      },
+      "name": "default"
+    }
+  }
+}

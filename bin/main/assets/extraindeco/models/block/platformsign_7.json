@@ -1,0 +1,10 @@
+{
+  "parent": "extraindeco:custom/platform_sign",
+  "textures": {
+    "all": "extraindeco:block/sign7",
+    "particle": "extraindeco:block/sign7",
+    "0": "extraindeco:block/sign7",
+    "1": "extraindeco:block/poles"
+  },
+  "render_type": "solid"
+}

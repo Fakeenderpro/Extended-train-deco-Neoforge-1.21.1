@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/white_concrete",
+    "up": "minecraft:block/white_concrete",
+    "north": "extraindeco:block/sbb_logo_3",
+    "east": "minecraft:block/white_concrete",
+    "south": "minecraft:block/white_concrete",
+    "west": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/white_concrete"
+  },
+  "render_type": "solid"
+}

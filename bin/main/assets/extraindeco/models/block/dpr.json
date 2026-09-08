@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/blue_concrete",
+    "up": "minecraft:block/yellow_concrete",
+    "north": "extraindeco:block/dpr_1",
+    "east": "extraindeco:block/dpr_1",
+    "south": "extraindeco:block/dpr_1",
+    "west": "extraindeco:block/dpr_1",
+    "particle": "minecraft:block/blue_concrete"
+  },
+  "render_type": "solid"
+}

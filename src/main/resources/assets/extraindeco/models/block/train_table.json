@@ -1,0 +1,10 @@
+{
+  "parent": "extraindeco:custom/table",
+  "textures": {
+    "all": "extraindeco:block/top",
+    "particle": "extraindeco:block/top",
+    "0": "extraindeco:block/top",
+    "1": "extraindeco:block/base"
+  },
+  "render_type": "solid"
+}

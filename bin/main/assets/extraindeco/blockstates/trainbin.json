@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "extraindeco:block/trainbin"
+    },
+    "facing=east": {
+      "model": "extraindeco:block/trainbin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "extraindeco:block/trainbin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "extraindeco:block/trainbin",
+      "y": 270
+    }
+  }
+}

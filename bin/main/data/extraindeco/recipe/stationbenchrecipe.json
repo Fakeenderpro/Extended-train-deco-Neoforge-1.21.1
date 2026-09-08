@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "aa",
+    "bb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_andesite_slab"
+    },
+    "b": {
+      "item": "extraindeco:ironpole"
+    }
+  },
+  "result": {
+    "id": "extraindeco:stationbench",
+    "count": 2
+  }
+}

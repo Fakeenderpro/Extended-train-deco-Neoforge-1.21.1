@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "extraindeco:stationbench",
+    "extraindeco:shortscharfenbergcoupler",
+    "extraindeco:scharfenbergcoupler",
+    "extraindeco:signal_2",
+    "extraindeco:signal",
+    "extraindeco:icdayline_1",
+    "extraindeco:sbbblue",
+    "extraindeco:platformsign_2t",
+    "extraindeco:platformsign_1t",
+    "extraindeco:platformsign_10",
+    "extraindeco:platformsign_9",
+    "extraindeco:platformsign_8",
+    "extraindeco:platformsign_7",
+    "extraindeco:platformsign_6",
+    "extraindeco:platformsign_5",
+    "extraindeco:platformsign_4",
+    "extraindeco:platformsign_3",
+    "extraindeco:platformsign_2",
+    "extraindeco:platformsign_1",
+    "extraindeco:platformsignbase",
+    "extraindeco:luggagerack",
+    "extraindeco:trainbin",
+    "extraindeco:train_table"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "extraindeco:block/sbbrabe_5142"
+    },
+    "facing=east": {
+      "model": "extraindeco:block/sbbrabe_5142",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "extraindeco:block/sbbrabe_5142",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "extraindeco:block/sbbrabe_5142",
+      "y": 270
+    }
+  }
+}

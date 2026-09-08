@@ -1,0 +1,29 @@
+{
+  "parent": "extraindeco:custom/fs_ticket_machine",
+  "textures": {
+    "all": "extraindeco:block/cappella",
+    "particle": "extraindeco:block/cappella",
+    "11": "extraindeco:block/centro_1",
+    "12": "extraindeco:block/schermo_top",
+    "13": "extraindeco:block/centro_2",
+    "14": "extraindeco:block/centro_3",
+    "15": "extraindeco:block/centro_4",
+    "16": "extraindeco:block/centro_5",
+    "17": "extraindeco:block/centro_6",
+    "18": "extraindeco:block/back",
+    "19": "extraindeco:block/cappella",
+    "0": "extraindeco:block/coso_1",
+    "1": "extraindeco:block/coso_2",
+    "2": "extraindeco:block/apertura_1",
+    "3": "extraindeco:block/apertura_2",
+    "4": "extraindeco:block/schermo_1",
+    "5": "extraindeco:block/pagamenti",
+    "6": "extraindeco:block/cartello_buttom_1",
+    "7": "extraindeco:block/cartello_buttom_2",
+    "missing": "extraindeco:block/",
+    "8": "extraindeco:block/cartello_top_1",
+    "9": "extraindeco:block/cartello_top_2",
+    "10": "extraindeco:block/sinistra_ss"
+  },
+  "render_type": "solid"
+}

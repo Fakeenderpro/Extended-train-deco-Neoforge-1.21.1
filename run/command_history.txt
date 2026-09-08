@@ -1,0 +1,3 @@
+/give Dev extraindeco:ironpole
+/time set day
+/difficulty peaceful

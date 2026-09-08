@@ -1,0 +1,30 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "11": "centro_1",
+        "12": "schermo_top",
+        "13": "centro_2",
+        "14": "centro_3",
+        "15": "centro_4",
+        "16": "centro_5",
+        "17": "centro_6",
+        "18": "back",
+        "19": "cappella",
+        "0": "coso_1",
+        "1": "coso_2",
+        "2": "apertura_1",
+        "3": "apertura_2",
+        "4": "schermo_1",
+        "5": "pagamenti",
+        "6": "cartello_buttom_1",
+        "7": "cartello_buttom_2",
+        "missing": "",
+        "8": "cartello_top_1",
+        "9": "cartello_top_2",
+        "10": "sinistra_ss"
+      },
+      "name": "default"
+    }
+  }
+}

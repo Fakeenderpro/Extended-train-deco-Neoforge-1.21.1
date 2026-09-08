@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "extraindeco:block/luggagerack"
+    },
+    "facing=east": {
+      "model": "extraindeco:block/luggagerack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "extraindeco:block/luggagerack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "extraindeco:block/luggagerack",
+      "y": 270
+    }
+  }
+}

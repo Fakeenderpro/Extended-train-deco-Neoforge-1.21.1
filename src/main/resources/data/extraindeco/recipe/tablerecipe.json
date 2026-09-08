@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "b  ",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "b": {
+      "item": "extraindeco:ironpole"
+    }
+  },
+  "result": {
+    "id": "extraindeco:train_table",
+    "count": 2
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "mappings": {
+    "a10": {
+      "map": {
+        "0": "sign10",
+        "1": "poles"
+      },
+      "name": "a10"
+    },
+    "a2t": {
+      "map": {
+        "0": "sign2t",
+        "1": "poles"
+      },
+      "name": "a2t"
+    },
+    "a1t": {
+      "map": {
+        "0": "sign1t",
+        "1": "poles"
+      },
+      "name": "a1t"
+    },
+    "a1": {
+      "map": {
+        "0": "sign1new",
+        "1": "poles"
+      },
+      "name": "a1"
+    },
+    "a2": {
+      "map": {
+        "0": "sign2",
+        "1": "poles"
+      },
+      "name": "a2"
+    },
+    "default": {
+      "map": {
+        "0": "signbase",
+        "1": "poles"
+      },
+      "name": "default"
+    },
+    "a3": {
+      "map": {
+        "0": "sign3",
+        "1": "poles"
+      },
+      "name": "a3"
+    },
+    "a4": {
+      "map": {
+        "0": "sign4",
+        "1": "poles"
+      },
+      "name": "a4"
+    },
+    "a5": {
+      "map": {
+        "0": "sign5",
+        "1": "poles"
+      },
+      "name": "a5"
+    },
+    "a6": {
+      "map": {
+        "0": "sign6",
+        "1": "poles"
+      },
+      "name": "a6"
+    },
+    "a7": {
+      "map": {
+        "0": "sign7",
+        "1": "poles"
+      },
+      "name": "a7"
+    },
+    "a8": {
+      "map": {
+        "0": "sign8",
+        "1": "poles"
+      },
+      "name": "a8"
+    },
+    "a9": {
+      "map": {
+        "0": "sign9",
+        "1": "poles"
+      },
+      "name": "a9"
+    }
+  }
+}

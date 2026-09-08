@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_andesite_slab"
+    },
+    "b": {
+      "item": "extraindeco:ironpole"
+    }
+  },
+  "result": {
+    "id": "extraindeco:luggagerack",
+    "count": 6
+  }
+}

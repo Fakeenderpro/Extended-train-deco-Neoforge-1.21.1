@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "extraindeco:scharfenbergcoupler"
+  },
+  "result": {
+    "id": "extraindeco:shortscharfenbergcoupler",
+    "count": 1
+  }
+}

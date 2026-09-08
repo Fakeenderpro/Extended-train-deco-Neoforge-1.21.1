@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:black_concrete_powder"
+    },
+    "b": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "id": "extraindeco:signal",
+    "count": 2
+  }
+}

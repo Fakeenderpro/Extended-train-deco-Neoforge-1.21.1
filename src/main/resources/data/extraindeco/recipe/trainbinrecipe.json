@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    " a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "id": "extraindeco:trainbin",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "extraindeco:block/dblogo_2"
+    },
+    "facing=east": {
+      "model": "extraindeco:block/dblogo_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "extraindeco:block/dblogo_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "extraindeco:block/dblogo_2",
+      "y": 270
+    }
+  }
+}

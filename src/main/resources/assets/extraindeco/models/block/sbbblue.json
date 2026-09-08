@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "extraindeco:block/sbb_blue",
+    "up": "extraindeco:block/sbb_blue",
+    "north": "extraindeco:block/sbb_blue",
+    "east": "extraindeco:block/sbb_blue",
+    "south": "extraindeco:block/sbb_blue",
+    "west": "extraindeco:block/sbb_blue",
+    "particle": "extraindeco:block/sbb_blue"
+  },
+  "render_type": "solid"
+}
