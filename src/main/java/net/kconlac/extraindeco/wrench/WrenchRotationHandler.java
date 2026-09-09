@@ -4,14 +4,16 @@ import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
-import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -41,15 +43,15 @@ import net.kconlac.extraindeco.block.Platformsign2tBlock;
 import net.kconlac.extraindeco.block.PlatformsignbaseBlock;
 import net.kconlac.extraindeco.ExtraindecoMod;
 
-import java.util.List;
 import java.util.Set;
 
 @EventBusSubscriber(modid = ExtraindecoMod.MODID)
-public class WrenchRemovalHandler {
+public class WrenchRotationHandler {
 	private static final ResourceLocation CREATE_WRENCH = ResourceLocation.fromNamespaceAndPath("create", "wrench");
 
-	// Add one line per block that should be removable with the Create wrench
-	private static final Set<Class<?>> WRENCHABLE_BLOCKS = Set.of(
+	// Right-click with the wrench: block is rotated 90 degrees clockwise.
+	// Add one line per block.
+	private static final Set<Class<?>> ROTATABLE_BLOCKS = Set.of(
 			ScharfenbergcouplerBlock.class,
 			TicketmachineBlock.class,
 			StationbenchBlock.class,
@@ -78,7 +80,7 @@ public class WrenchRemovalHandler {
 		if (event.getHand() != InteractionHand.MAIN_HAND)
 			return;
 		Player player = event.getEntity();
-		if (!player.isShiftKeyDown())
+		if (player.isShiftKeyDown())
 			return;
 		ItemStack held = event.getItemStack();
 		if (!CREATE_WRENCH.equals(BuiltInRegistries.ITEM.getKey(held.getItem())))
@@ -86,19 +88,16 @@ public class WrenchRemovalHandler {
 		Level level = event.getLevel();
 		BlockPos pos = event.getPos();
 		BlockState state = level.getBlockState(pos);
-		if (!WRENCHABLE_BLOCKS.contains(state.getBlock().getClass()))
+		if (!ROTATABLE_BLOCKS.contains(state.getBlock().getClass()))
 			return;
 		event.setCanceled(true);
 		event.setCancellationResult(InteractionResult.sidedSuccess(level.isClientSide()));
 		if (!(level instanceof ServerLevel serverLevel))
 			return;
-		BlockEntity blockEntity = level.getBlockEntity(pos);
-		List<ItemStack> drops = Block.getDrops(state, serverLevel, pos, blockEntity, player, held);
-		level.removeBlock(pos, false);
-		level.levelEvent(2001, pos, Block.getId(state));
-		for (ItemStack drop : drops) {
-			if (!player.getInventory().add(drop))
-				player.drop(drop, false);
-		}
+		BlockState rotated = state.rotate(Rotation.CLOCKWISE_90);
+		if (rotated == state)
+			return;
+		serverLevel.setBlock(pos, rotated, Block.UPDATE_ALL);
+		serverLevel.playSound(null, pos, SoundEvents.WOODEN_TRAPDOOR_OPEN, SoundSource.BLOCKS, 0.4f, 1.1f);
 	}
 }
