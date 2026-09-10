@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "extraindeco:block/copycatscharfenbergcoupler"
+    },
+    "facing=east": {
+      "model": "extraindeco:block/copycatscharfenbergcoupler",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "extraindeco:block/copycatscharfenbergcoupler",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "extraindeco:block/copycatscharfenbergcoupler",
+      "y": 270
+    }
+  }
+}

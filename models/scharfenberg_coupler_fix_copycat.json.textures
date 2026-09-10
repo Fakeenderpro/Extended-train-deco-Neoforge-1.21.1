@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "copycat_base_fix",
+        "5": "small_buffer_fix",
+        "6": "coupler",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

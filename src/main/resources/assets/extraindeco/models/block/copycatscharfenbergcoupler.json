@@ -1,0 +1,12 @@
+{
+  "parent": "extraindeco:custom/scharfenberg_coupler_fix_copycat",
+  "textures": {
+    "all": "extraindeco:block/coupler",
+    "particle": "extraindeco:block/coupler",
+    "2": "extraindeco:block/copycat_base_fix",
+    "5": "extraindeco:block/small_buffer_fix",
+    "6": "extraindeco:block/coupler",
+    "missing": "extraindeco:block/"
+  },
+  "render_type": "cutout"
+}
